@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="popup.css">
+  </head>
+  <body>
+    <!-- Tab Buttons -->
+     <div class="nav">
+      Concept
+      <img id = "signOutBtn" src="./icons/logout.png" width="14" height="14" class="sign-out-icon"/>
+     </div>
+    <div class="tabs">
+      <div class="tab-button active" id="notesTab">Notes</div>
+      <div class="tab-button" id="blogsTab">Blogs</div>
+    </div>
+
+    <!-- Notes Tab Content -->
+    <div id="notesContent" class="tab active">
+      <h2>Notes</h2>
+      <ul id="notesList">
+        <!-- Dynamic Notes will be populated here as clickable list items -->
+      </ul>
+    </div>
+    
+
+    <!-- Blogs Tab Content -->
+    <div id="blogsContent" class="tab">
+      <h2>Blogs</h2>
+      <ul id="blogList">
+
+      </ul>
+    </div>
+
+    <div class="btn-contanier">
+    <button id="enablePopup">Enable Blogger</button>
+    <button id="disablePopup">Disable Blogger</button>
+  </div>
+    <script src="popup.js"></script>
+  </body>
+</html>

@@ -1,0 +1,66 @@
+# Node.js dependencies (for React and Chrome extension)
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# React build files
+**/build/
+**/dist/
+**/.next/
+**/.out/
+
+# Ignore Python virtual environments (venv)
+**/venv/
+**/venv/*
+**/Lib/
+
+# Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+**/__pycache__/
+
+# Python-specific environment/config files
+*.env
+*.pytest_cache/
+*.mypy_cache/
+*.coverage
+.coverage.*
+
+# Chrome extension build/output directories
+**/dist/
+**/build/
+
+# Chrome extension manifest key files (if any)
+**/key.pem
+**/manifest-key.pem
+
+# Chrome extension logs
+*.log
+
+# React environment files
+**/.env
+**/.env.local
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Editor and temporary files
+*.swp
+*.bak
+*.tmp
+*.~lock.*
+.idea/
+.vscode/
+
+# Skip "Lib" folder
+**/Lib/
+
+**/Scripts/
+

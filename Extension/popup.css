@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 250px;
+    margin: 0;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+  }
+
+  .nav{
+    background-color: transparent;
+    color: #D74846;
+    font-weight: 600;
+    padding: 18px;
+    padding-left: 6px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .sign-out-icon{
+    cursor: pointer;
+  }
+  .sign-in-btn{
+    display: flex;
+    font-size: 14px;
+    background-color: #EBF5FF;
+    padding: 12px;
+    margin: 75px;
+    width: fit-content;
+    gap: 10px;
+    font-weight: 500;
+  }
+
+  .tab {
+    display: none;
+  }
+  .tab.active {
+    display: block;
+  }
+  .tabs {
+    display: grid;
+    margin: 0;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .tab-button {
+    padding: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    border-top: none;
+  }
+  .tab-button.active {
+    color: #D74846;
+    background-color: #cfe7ff;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  table, th, td {
+    border: 1px solid black;
+  }
+
+  .btn-contanier{
+    display: flex;
+    gap: 10px;
+    margin-top: 12px;
+  }
+
+button {
+  display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: none;
+    /* border-radius: 5px; */
+    background-color: #007bff;
+    color: white;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+#notesList, #blogList{
+  padding: 0px !important;
+}
+
+#notesList li, #blogList li{
+  padding: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  list-style: none !important;
+}
+
+#notesList li.selected, #blogList li.selected {
+  background-color: #ddd;
+}
+
